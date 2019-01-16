@@ -1,1 +1,3 @@
 # CourseProjectAPI
+
+Electricity calculator
