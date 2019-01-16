@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "Calculate";
+}
+<div class="row">
+    <h2>
+        Calculate
+        <a class="btn btn-primary" href="http://localhost:62151/Calculation" role="button">Назад</a>
+    </h2>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th> </th>
+            <th scope="col">Снабдяване</th>
+            <th scope="col">квтч</th>
+            <th scope="col">цена</th>
+            <th scope="col">сума [лв]</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row"></th>
+            <td>Активна енергия Дневна</td>
+            <td>@ViewBag.values.DayEnergyKwphTxt</td>
+            <td>@ViewBag.values.DayEnergyPriceTxt</td>
+            <td>@ViewBag.values.DayEnergyAmountTxt</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Активна енергия Нощна</td>
+            <td>@ViewBag.values.NightEnergyKwphTxt</td>
+            <td>@ViewBag.values.NightEnergyPriceTxt</td>
+            <td>@ViewBag.values.NightEnergyAmountTxt</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Акциз</td>
+            <td>@ViewBag.values.DutyKwphTxt</td>
+            <td>@ViewBag.values.DutyPriceTxt</td>
+            <td>@ViewBag.values.DutyAmountTxt</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Снабдяване общо</td>
+            <td></td>
+            <td></td>
+            <td>@ViewBag.values.AllSupplyTxt</td>
+        </tr>
+        <tr>
+            <th scope="row"> </th>
+            <th scope="col">Разпределение</th>
+            <th scope="col">квтч</th>
+            <th scope="col">цена</th>
+            <th scope="col">сума [лв]</th>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Достъп до разпределителната мрежа</td>
+            <td>@ViewBag.values.AccessDNKwphTxt</td>
+            <td>@ViewBag.values.AccessDNPriceTxt</td>
+            <td>@ViewBag.values.AccessDNAmountTxt</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Пренос през разпределителната мрежа</td>
+            <td>@ViewBag.values.TransferDNKwphTxt</td>
+            <td>@ViewBag.values.TransferDNPriceTxt</td>
+            <td>@ViewBag.values.TransferDNAmountTxt</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Достъп до електропреносната мрежа</td>
+            <td>@ViewBag.values.AccessEGKwphTxt</td>
+            <td>@ViewBag.values.AccessEGPriceTxt</td>
+            <td>@ViewBag.values.AccessEGAmountTxt</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Пренос през електропреносната мрежа</td>
+            <td>@ViewBag.values.TransferEGKwphTxt</td>
+            <td>@ViewBag.values.TransferEGPriceTxt</td>
+            <td>@ViewBag.values.TransferEGAmountTxt</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Разпределение - общо</td>
+            <td></td>
+            <td></td>
+            <td>@ViewBag.values.AllDistributionTxt</td>
+        </tr>
+    </tbody>
+</table>
+<div class="row">
+
+</div>
+<p class="text-right">
+    Обща стойност на сделката:
+    @ViewBag.values.PriceMinusVatTxt лв
+</p>
+<p class="text-right">
+    ДДС 20%:
+    @ViewBag.values.VatTxt лв
+</p>
+<p class="text-right">
+    Сума за плащане:
+    @ViewBag.values.TotalPriceTxt лв
+</p>
+
