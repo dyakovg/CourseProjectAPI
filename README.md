@@ -1,3 +1,5 @@
 # CourseProjectAPI
 
-Electricity calculator
+#Information
+Simple electricity calculator
+
