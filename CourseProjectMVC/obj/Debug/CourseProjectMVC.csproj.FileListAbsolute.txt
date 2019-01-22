@@ -69,3 +69,6 @@ C:\Users\gdqko\source\repos\CourseProject\CourseProjectMVC\obj\Debug\CourseProje
 C:\Users\gdqko\source\repos\CourseProject\CourseProjectMVC\obj\Debug\CourseProjectMVC.pdb
 C:\Users\gdqko\source\repos\CourseProject\CourseProjectMVC\bin\LogicDll.dll
 C:\Users\gdqko\source\repos\CourseProject\CourseProjectMVC\bin\LogicDll.pdb
+C:\Users\gdqko\source\repos\CourseProject\CourseProjectMVC\bin\NLog.config
+C:\Users\gdqko\source\repos\CourseProject\CourseProjectMVC\bin\NLog.dll
+C:\Users\gdqko\source\repos\CourseProject\CourseProjectMVC\bin\NLog.xml

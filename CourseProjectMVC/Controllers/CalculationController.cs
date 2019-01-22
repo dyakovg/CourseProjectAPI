@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,7 +9,8 @@ namespace CourseProjectMVC.Controllers
 {
     public class CalculationController : Controller
     {
-        // GET: Calculation
+        private static Logger logger = LogManager.GetCurrentClassLogger();
+        // GET: Calculationvq 
         public ActionResult Index()
         {
             LogicDll.SubmitBtnCalculation.Calculate(123.1m, 1m); 
@@ -18,6 +20,7 @@ namespace CourseProjectMVC.Controllers
         [HttpPost]
         public ActionResult Calculate()
         {
+            
             try
             {
                 decimal day = decimal.Parse(Request["value1"]);
@@ -28,6 +31,7 @@ namespace CourseProjectMVC.Controllers
             } catch(FormatException ex)
             {
                 ViewBag.error = "Invalid parameters";
+                logger.Error("Invalid parameters, should use integer type");     //writes error in folder /logs
                 return View();
             }
 
