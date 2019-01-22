@@ -1,5 +1,6 @@
 # CourseProjectAPI
 
+<<<<<<< HEAD
 Simple electricity calculator
 
 ## Getting Started
