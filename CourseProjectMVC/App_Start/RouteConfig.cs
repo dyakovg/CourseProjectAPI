@@ -16,7 +16,7 @@ namespace CourseProjectMVC
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "CalculationController", action = "Calculate", id = UrlParameter.Optional }
             );
         }
     }

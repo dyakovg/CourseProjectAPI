@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,8 @@ namespace LogicDll
 
             public static SubmitBtnCalculation Calculate(decimal DaykWTxt, decimal NightkWTxt)
             {
+                    
+
 
             SubmitBtnCalculation results = new SubmitBtnCalculation();
 

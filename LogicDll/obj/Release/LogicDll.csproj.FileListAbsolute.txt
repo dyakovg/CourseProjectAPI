@@ -1,0 +1,6 @@
+C:\Users\gdqko\source\repos\CourseProject\LogicDll\bin\Release\LogicDll.dll
+C:\Users\gdqko\source\repos\CourseProject\LogicDll\bin\Release\LogicDll.pdb
+C:\Users\gdqko\source\repos\CourseProject\LogicDll\obj\Release\LogicDll.csprojAssemblyReference.cache
+C:\Users\gdqko\source\repos\CourseProject\LogicDll\obj\Release\LogicDll.csproj.CoreCompileInputs.cache
+C:\Users\gdqko\source\repos\CourseProject\LogicDll\obj\Release\LogicDll.dll
+C:\Users\gdqko\source\repos\CourseProject\LogicDll\obj\Release\LogicDll.pdb

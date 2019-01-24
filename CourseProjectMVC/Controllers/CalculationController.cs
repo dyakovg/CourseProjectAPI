@@ -10,7 +10,8 @@ namespace CourseProjectMVC.Controllers
     public class CalculationController : Controller
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
-        // GET: Calculationvq 
+        // GET: Calculation
+        [Route("/")]
         public ActionResult Index()
         {
             LogicDll.SubmitBtnCalculation.Calculate(123.1m, 1m); 

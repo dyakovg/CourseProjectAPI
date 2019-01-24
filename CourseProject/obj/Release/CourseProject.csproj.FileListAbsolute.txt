@@ -1,0 +1,13 @@
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\bin\Release\CourseProject.exe.config
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\bin\Release\CourseProject.exe
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\bin\Release\CourseProject.pdb
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\bin\Release\LogicDll.dll
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\bin\Release\LogicDll.pdb
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\obj\Release\CourseProject.csprojAssemblyReference.cache
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\obj\Release\CourseProject.Form1.resources
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\obj\Release\CourseProject.Properties.Resources.resources
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\obj\Release\CourseProject.csproj.GenerateResource.cache
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\obj\Release\CourseProject.csproj.CoreCompileInputs.cache
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\obj\Release\CourseProject.csproj.CopyComplete
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\obj\Release\CourseProject.exe
+C:\Users\gdqko\source\repos\CourseProject\CourseProject\obj\Release\CourseProject.pdb
